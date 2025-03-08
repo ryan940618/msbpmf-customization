@@ -171,9 +171,9 @@ export default function ZhuyinCustomization() {
     const isValid = await validateInput();
     if (!isValid) return;
 
-    const HALF_SPACE = "\u2002";
+    const HALF_SPACE = "\u0020";
     const fileContent = lines
-      .map(line => `${line.char}${HALF_SPACE}${line.zhuyin}${HALF_SPACE}`)
+      .map(line => `${line.char}${HALF_SPACE}${HALF_SPACE}${line.zhuyin}${HALF_SPACE}`)
       .join("\n");
 
     const utf16leContent = encodeUTF16LE(fileContent);
