@@ -76,10 +76,10 @@ And the tool sometimes just randomly hungs up.
 Please go to the settings of IME and enables all extended character sets to minimize the chance of missing characters.  
 
 Right-click the "中/英" button and opens "Settings".  
-!![Opens Settings](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/en_setting.gif)  
+![Opens Settings](https://github.com/ryan940618/msbpmf-customization/blob/63fb3c9041cc5a5d2c7373bad6a64603511fb7a4/assets/en_settings.gif)  
 
 Go to "Advanced", choose "Standard Unicode" and enable all extended character sets.  
-!![Enable Extended Character Sets](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/en_extended.gif)  
+![Enable Extended Character Sets](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/en_extended.gif)  
 
 ## Usage  
 First, go to the main page of the tool.  
