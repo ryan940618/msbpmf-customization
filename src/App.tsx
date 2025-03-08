@@ -62,7 +62,7 @@ export default function ZhuyinCustomization() {
           if (line.id !== selectedLine) return line;
 
           let newZhuyin = line.zhuyin || initialZhuyin;
-          const zhuyinArray = newZhuyin.split(""); // 轉成陣列，方便操作
+          const zhuyinArray = newZhuyin.split("");
 
           // 找到最後一個非空格的字符，然後刪除
           for (let i = zhuyinArray.length - 1; i >= 0; i--) {
@@ -135,6 +135,7 @@ export default function ZhuyinCustomization() {
             zhuyinValid = false;
             msg = "未輸入符號/字元!";
           }
+          /*
           console.log("----Line " + line.id + "----")
           console.log("Length: " + zhuyinParts.length);
           console.log("Test A: " + regexA.test(zhuyinParts[0] || ""));
@@ -143,19 +144,20 @@ export default function ZhuyinCustomization() {
           console.log("Test D: " + regexD.test(zhuyinParts[3] || ""));
           console.log("zhuyinValid: " + zhuyinValid);
           console.log("\n")
+          */
           if (!zhuyinValid) {
             valid = false;
           }
           return { ...line, error: !zhuyinValid, ermsg: msg };
         });
-        resolve(valid); // Resolve the promise AFTER setLines processes the data
+        resolve(valid);
         return newLines;
       });
     });
   };
 
   function encodeUTF16LE(str: string): Uint8Array {
-    const buffer = new ArrayBuffer(str.length * 2); // 2 bytes per character
+    const buffer = new ArrayBuffer(str.length * 2);
     const view = new Uint16Array(buffer);
 
     for (let i = 0; i < str.length; i++) {
