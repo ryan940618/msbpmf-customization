@@ -211,7 +211,7 @@ export default function ZhuyinCustomization() {
 
   return (
     <div className="typing p-6 max-w-137 bg-white shadow-lg rounded-lg">
-      <h1 className="text-xl font-semibold text-center mb-5">微軟注音自訂拼音產生器</h1>
+      <h1 className="text-xl font-semibold text-center mb-5">微軟注音自訂讀音產生器</h1>
 
       {/* 輸入區 */}
       <div className="border rounded-lg p-3 bg-gray-100 ">
