@@ -26,11 +26,11 @@ Made by ryan940618 with ❤
 ## 使用方式  
 先進到工具主頁面 - [微軟注音自訂讀音產生器](https://ryan940618.github.io/msbpmf-customization/)  
 左側用於輸入/貼上中文字元或符號，右側用於輸入自定義的注音，注音請使用螢幕上的鍵盤。  
-![使用示範](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/showcase.gif)  
+![使用示範](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/showcase.gif)  
 
 若要一字多音，可以按下該行的「複製」按鈕，或是手動新增一行，再輸入同樣的字元也可以。  
 
-![錯誤行數示範](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/errorEgs.gif)  
+![錯誤行數示範](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/errorEgs.gif)  
 於完成後按下方「下載」按鈕，若有需要修正之行數會被以紅色標記，若無的話，檔案會彈出下載。  
 
 完成下載後，到工具列的輸入法中/英切換處按右鍵，並進入「自訂讀音/字根」功能。  
@@ -44,8 +44,8 @@ Made by ryan940618 with ❤
 
 儲存之後，自定義的符號理應就可以被直接輸入!  
 (註：輸入較多次後字元之排序才會靠前。)  
-![in示例](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/in.png)  
-![fei示例](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/fei.png)  
+![in示例](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/in.png)  
+![fei示例](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/fei.png)  
 
 ### 發生視窗卡死時  
 於工作列按下右鍵，開啟「工作管理員」。  
@@ -68,7 +68,7 @@ Made by ryan940618 with ❤
 Some of the rare chinese characters or extended characters are not directly typeable with Microsoft Bopomofo, even though it has a built-in "User Reading" tool for user to add customized reading, but the code is not maintained well that it is barely usable.  
 The aiming of this tool is to let user define their customized readings out of the IME, then finally import the output file into the input method.  
 
-![Reading Textbox Not Typeable](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/en_toolError.gif)  
+![Reading Textbox Not Typeable](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/en_toolError.gif)  
 The reading textbox in the User Reading tool is not typeable of any character.  
 And the tool sometimes just randomly hungs up.  
 
@@ -76,28 +76,28 @@ And the tool sometimes just randomly hungs up.
 Please go to the settings of IME and enables all extended character sets to minimize the chance of missing characters.  
 
 Right-click the "中/英" button and opens "Settings".  
-!![Opens Settings](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/en_setting.gif)  
+!![Opens Settings](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/en_setting.gif)  
 
 Go to "Advanced", choose "Standard Unicode" and enable all extended character sets.  
-!![Enable Extended Character Sets](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/en_extended.gif)  
+!![Enable Extended Character Sets](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/en_extended.gif)  
 
 ## Usage  
 First, go to the main page of the tool.  
 [微軟注音自訂讀音產生器](https://ryan940618.github.io/msbpmf-customization/)  
 Type or paste the character to be customized at the left, then use the on-screen keyboard to enter the reading at the right hand side.  
-![Usage Example](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/showcase.gif)  
+![Usage Example](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/showcase.gif)  
 
 If managed to assign more than one reading combination on a character, you can use the "copy(複製)" button, which will create a new line with the same character.  
 You may also manually create a new line and put the same character again.  
  
 After the assigning, you may press the "download(下載)" button at the bottom.  
 Lines that doesn't meet the rule will be highlighted as red.  
-![Lines Error Examples](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/errorEgs.gif)  
+![Lines Error Examples](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/errorEgs.gif)  
 
 If every lines are good, the download prompt will pops up, and you may download the generated text file.  
 
 Now, check the right bottom corner of your screen, right-click on the Bopomofo/English toggle key (displayed as 中/英), then click "User reading".  
-![Opens User reading](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/en_userReading.gif)  
+![Opens User reading](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/en_userReading.gif)  
 
 ### ※Caution: There are high chances that the User Reading Tool will hung during below steps, please perform below steps exactly and carefully, check [related part below](https://github.com/ryan940618/msbpmf-customization#when-the-user-reading-tool-hungs) if the tool hungs.  
 From the left top of the User reading tool, respectively click "File", "Import...", then select the file that we just downloaded.  
@@ -106,19 +106,19 @@ Till this point, **DO NOT USE YOUR KEYBOARD!**
 **USE YOUR MOUSE** to click on "OK".  
 **THEN CLICK THE YELLOW COLORED BACKGROUND TABLE FIRST**  
 Finally, click the save button **WITH YOUR MOUSE!**  
-![Importing file](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/en_importing.gif)  
+![Importing file](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/en_importing.gif)  
 
 After that, you may close the User reading tool.  
 
 Till this point, your customized reading should now working properly!  
-!["in" example](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/in.png)  
-!["fei" example](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/fei.png)  
+!["in" example](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/in.png)  
+!["fei" example](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/fei.png)  
 
 ### When the User Reading Tool hungs  
 Right-click on your hotbar and open Task Manager.  
-![Opens Task Manager](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/en_Taskmgr.gif)  
+![Opens Task Manager](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/en_Taskmgr.gif)  
 
 Find IMCCPHR.exe and right-click on it, click "End Task" to close it forcingly.  
-![End Task Forcingly](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/en_endTask.gif)  
+![End Task Forcingly](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/en_endTask.gif)  
 
 Then you may try again and continue from the "Caution" step.  
