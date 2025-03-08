@@ -116,7 +116,7 @@ export default function ZhuyinCustomization() {
           let zhuyinValid = true;
           const zhuyinParts = line.zhuyin.split("");
 
-          if (/^.$/.test(line.char)) {
+          if (line.char.length !== 0) {
             if (regexA.test(zhuyinParts[0] || "") ||
               regexB.test(zhuyinParts[1] || "") ||
               regexC.test(zhuyinParts[2] || "")) {
