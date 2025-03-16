@@ -20,7 +20,7 @@ Made by ryan940618 with ❤
 於中/英切換處右鍵、設定。  
 ![開啟設定](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/zh_setting.gif)  
 
-進入**「進階」**，選擇**「標準Unicode」**並將所有擴充集啟用即可。  
+進入 **「進階」** ，選擇 **「標準Unicode」** 並將所有擴充集啟用即可。  
 ![開啟擴充集](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/zh_extended.gif)  
 
 ## 使用方式  
@@ -28,19 +28,19 @@ Made by ryan940618 with ❤
 左側用於輸入/貼上中文字元或符號，右側用於輸入自定義的注音，注音請使用螢幕上的鍵盤。  
 ![使用示範](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/showcase.gif)  
 
-若要一字多音，可以按下該行的**「複製」**按鈕，或是手動新增一行，再輸入同樣的字元也可以。  
+若要一字多音，可以按下該行的 **「複製」** 按鈕，或是手動新增一行，再輸入同樣的字元也可以。  
 
 ![錯誤行數示範](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/errorEgs.gif)  
-於完成後按下方**「下載」**按鈕，若有需要修正之行數會被以紅色標記，若無的話，檔案會彈出下載。  
+於完成後按下方 **「下載」** 按鈕，若有需要修正之行數會被以紅色標記，若無的話，檔案會彈出下載。  
 
-完成下載後，到工具列的輸入法中/英切換處按右鍵，並進入**「自訂讀音/字根」**功能。  
+完成下載後，到工具列的輸入法中/英切換處按右鍵，並進入 **「自訂讀音/字根」** 功能。  
 ![進入自訂讀音工具](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/zh_userReading.gif)  
 
 ### ※注意：下述步驟請務必完全照做，容易出現視窗卡死之情形，當發生時需強制關閉，詳見下方[發生視窗卡死時](https://github.com/ryan940618/msbpmf-customization#%E7%99%BC%E7%94%9F%E8%A6%96%E7%AA%97%E5%8D%A1%E6%AD%BB%E6%99%82)  
-於左上角選擇**「檔案(F)」**，**「匯入(I)」**，並選擇剛剛下載的檔案。  
+於左上角選擇 **「檔案(F)」** ， **「匯入(I)」** ，並選擇剛剛下載的檔案。  
 ![選擇檔案](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/zh_importing.gif)  
 彈出的視窗會說明有效、重複、無效的匯入組合，至此**請不要使用鍵盤**。  
-**使用滑鼠點擊**確定，然後**務必用滑鼠點一下黃底表格處**，然後再**使用滑鼠點擊「儲存」**之圖示，儲存完畢即可關閉該工具。  
+**使用滑鼠點擊**確定，然後**務必用滑鼠點一下黃底表格處**，然後再 **使用滑鼠點擊「儲存」** 之圖示，儲存完畢即可關閉該工具。  
 
 儲存之後，自定義的符號理應就可以被直接輸入!  
 (註：**輸入較多次後**字元之排序才會靠前。)  
@@ -48,13 +48,13 @@ Made by ryan940618 with ❤
 ![fei示例](https://github.com/ryan940618/msbpmf-customization/blob/9cf830d9bf40feb3bec76a1af16118dbc7207668/assets/fei.png)  
 
 ### 發生視窗卡死時  
-於工作列按下右鍵，開啟**「工作管理員」**。  
+於工作列按下右鍵，開啟 **「工作管理員」** 。  
 ![開啟工作管理員](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/zh_Taskmgr.gif)  
 
-找到**「IMCCPHR.exe」**，對其按下右鍵、**「結束工作」**。  
+找到 **「IMCCPHR.exe」** ，對其按下右鍵、 **「結束工作」** 。  
 ![強制結束](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/zh_endTask.gif)  
 
-然後從**「※注意」**處之步驟重新嘗試操作。  
+然後從 **「※注意」** 處之步驟重新嘗試操作。  
 
 
 # Microsoft Bopomofo Custom Reading Tool  
