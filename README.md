@@ -6,7 +6,7 @@ Made by ryan940618 with ❤
 - [Instagram](https://instagram.com/ryan940618)
 
 ## 發想  
-微軟注音輸入法中，有些**特殊字**或**擴充區字元**無法被直接打出，但因輸入法自帶之「自訂讀音/字根」工具未妥善維護，導致其功能於現今Windows中幾乎無法使用。  
+微軟注音輸入法中，有些**特殊字**或**擴充區字元**無法被直接打出，但因輸入法自帶之**「自訂讀音/字根」** 工具未妥善維護，導致其功能於現今Windows中幾乎無法使用。  
 本工具的開發目的是為了能夠在該工具外完成對自訂讀音的分配，然後再**以匯入方式**完成對讀音的自定義。  
 
 ![示範注音欄位無法輸入](https://github.com/ryan940618/msbpmf-customization/blob/4baab058b90d75f1ecce8f16e1b58765bf2cc519/assets/zh_toolError.gif)  
